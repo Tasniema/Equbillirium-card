@@ -1,0 +1,67 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(13,26,45);
+  margin: 30px;
+  padding: 30px;
+}
+.parent{
+  width: 250px;
+  height: 460px;
+  margin: auto;
+  position: relative;
+  padding: 20px;
+  background-color: rgb(20,39,62);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 20px solid rgb(12,25,43); */
+}
+.image{
+  width: 250px;
+  height:  250px;
+  display: block;
+  border-radius: 10px;
+}
+h2{
+  color: white;
+}
+.creation,
+hr,
+p{
+  color: rgb(118,137,166);
+}
+.number{
+  display: flex;
+  justify-content: space-between;
+}
+.gem{
+  height: 20px;
+  padding: 5px;
+}
+.coin,
+.time{
+  display: flex;
+  align-items: center;
+}
+.coin{
+  color: rgb(57,180,176);
+}
+.owner{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap:  5px;
+}
+.name{
+  color: rgb(190,203,213);
+}
+.geme{
+  color: rgb(61,87,129);
+  height: 20px;
+  padding: 5px;
+}
+#avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
